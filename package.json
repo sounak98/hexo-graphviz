@@ -6,6 +6,10 @@
   "repository": "https://github.com/sounak98/hexo-graphviz.git",
   "author": "Sounak Pradhan <sounak.98@gmail.com>",
   "license": "MIT",
+  "bugs": {
+  	"url": "https://github.com/sounak98/hexo-graphviz/issues"
+  },
+  "keywords": ["hexo", "graphviz", "blog", "plugin", "graph"],
   "dependencies": {
     "deep-assign": "^3.0.0"
   }
