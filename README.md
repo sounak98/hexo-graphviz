@@ -2,12 +2,12 @@
 Plugin for Hexo which renders Graphviz plots
 
 ## Installation
-## Step1 Install Package
+### Install Package
 ```bash
 $ yarn add https://github.com/sounak98/hexo-graphviz
 ```
 
-## Step2 Edit Config
+### Edit Config
 After installed, you should edit hexo config file: `_config.yml`:
 ```yaml
 # hexo-graphviz
@@ -15,7 +15,7 @@ graphviz:
   enable: true
 ```
 
-## Step3 include mermaid.js in pug or ejs
+### Include `mermaid.js` in `swig` or `ejs`
 After edited `_config.yml`, you shou edit your blog page component like `after-footer.ejs` ro `swig` which can be found inside 
 the `layout` directory inside the theme directory.
 
@@ -70,3 +70,7 @@ Open your theme folder, you can see the `layout` folder, open it and then you co
   </script>
 {% endif %}
 ```
+
+## Usage
+
+The graphviz block can be written inside a ```` ```graphviz ```` codeblock.
