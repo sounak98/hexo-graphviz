@@ -1,6 +1,6 @@
 {
   "name": "hexo-graphviz",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Hexo plugin for rendering Graphviz plots",
   "main": "index.js",
   "repository": "https://github.com/sounak98/hexo-graphviz.git",
