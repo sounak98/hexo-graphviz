@@ -1,15 +1,21 @@
 {
   "name": "hexo-graphviz",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Hexo plugin for rendering Graphviz plots",
   "main": "index.js",
   "repository": "https://github.com/sounak98/hexo-graphviz.git",
   "author": "Sounak Pradhan <sounak.98@gmail.com>",
   "license": "MIT",
   "bugs": {
-  	"url": "https://github.com/sounak98/hexo-graphviz/issues"
+    "url": "https://github.com/sounak98/hexo-graphviz/issues"
   },
-  "keywords": ["hexo", "graphviz", "blog", "plugin", "graph"],
+  "keywords": [
+    "hexo",
+    "graphviz",
+    "blog",
+    "plugin",
+    "graph"
+  ],
   "dependencies": {
     "deep-assign": "^3.0.0"
   }
