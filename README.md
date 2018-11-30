@@ -16,10 +16,9 @@ graphviz:
 ```
 
 ### Include `viz.js` in `swig` or `ejs`
-After edited `_config.yml`, you shou edit your blog page component like `after-footer.ejs` ro `swig` which can be found inside 
-the `layout` directory inside the theme directory.
+After editing `_config.yml`, you shoud be able to edit your blog page component like `after-footer.ejs` or a `swig` file which can be found inside the `themes/layout` directory.
 
-`after-footer.ejs` should have the following code:
+The following code should be added in the file `after-footer.ejs`:
 ```
 <% if (theme.graphviz.enable) { %>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/viz.js/1.7.1/viz.js'></script>
@@ -44,9 +43,9 @@ the `layout` directory inside the theme directory.
 <% } %>
 ```
 
-`swig` template engine:
+And for `swig` template engine use the following code:
 ```swig
-{% if theme.mermaid.enable %}
+{% if theme.graphviz.enable %}
   <script src='https://cdnjs.cloudflare.com/ajax/libs/viz.js/1.7.1/viz.js'></script>
   <script>
     String.prototype.replaceAll = function(search, replacement) {
